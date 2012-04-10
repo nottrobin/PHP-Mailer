@@ -25,3 +25,11 @@ $mailer = new Mailer($message, $recipients, $subject, $fromAddr, $addGreeting);
 $mailer->sendAll();
 ```
 
+Then to actually send the email just run the following from a command prompt:
+
+```
+./sendEmails.php
+```
+
+The script will output its progress to the command prompt (or whatever STDOUT defaults to).
+
