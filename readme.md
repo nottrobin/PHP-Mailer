@@ -5,7 +5,7 @@ This is a simple PHP class for sending emails individually to multiple recipient
 
 The Mailer class can also add the greeting for you, in the form "Dear [Name]".
 
-To learn how to use it simply edit sendEmails.php - it's pretty self explanatory:
+To use it simply edit sendEmails.php - it's pretty self explanatory:
 
 ```php
 require_once('Mailer.php');
